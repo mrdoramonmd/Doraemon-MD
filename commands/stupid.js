@@ -18,7 +18,7 @@ async function stupidCommand(sock, chatId, quotedMsg, mentionedJid, sender, args
             avatarUrl = await sock.profilePictureUrl(who, 'image');
         } catch (error) {
             console.error('Error fetching profile picture:', error);
-            avatarUrl = 'https://telegra.ph/file/24fa902ead26340f3df2c.png'; // Default avatar
+            avatarUrl = 'https://i.postimg.cc/Bvq2ZpYm/334c51d4e455e5e4f2b9d5ade57bc64d.jpg'; // Default avatar
         }
 
         // Fetch the stupid card from the API
