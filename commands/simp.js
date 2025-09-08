@@ -15,7 +15,7 @@ async function simpCommand(sock, chatId, quotedMsg, mentionedJid, sender) {
             avatarUrl = await sock.profilePictureUrl(who, 'image');
         } catch (error) {
             console.error('Error fetching profile picture:', error);
-            avatarUrl = 'https://telegra.ph/file/24fa902ead26340f3df2c.png'; // Default avatar
+            avatarUrl = 'https://i.postimg.cc/Bvq2ZpYm/334c51d4e455e5e4f2b9d5ade57bc64d.jpg'; // Default avatar
         }
 
         // Fetch the simp card from the API
@@ -38,7 +38,7 @@ async function simpCommand(sock, chatId, quotedMsg, mentionedJid, sender) {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363161513685998@newsletter',
-                    newsletterName: 'KnightBot MD',
+                    newsletterName: 'DORAEMON-MD',
                     serverMessageId: -1
                 }
             }
@@ -53,7 +53,7 @@ async function simpCommand(sock, chatId, quotedMsg, mentionedJid, sender) {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363161513685998@newsletter',
-                    newsletterName: 'KnightBot MD',
+                    newsletterName: 'DORAEMON-MD',
                     serverMessageId: -1
                 }
             }
