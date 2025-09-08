@@ -37,7 +37,7 @@ async function attpCommand(sock, chatId, message) {
         await sock.sendMessage(chatId, {
             sticker: stickerBuffer,
             mimetype: 'image/webp',
-            packname: 'My Sticker Pack', 
+            packname: 'DORAEMON-MD', 
             author: 'My Bot', 
         });
 
